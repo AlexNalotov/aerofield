@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#173B32">
+<meta name="description" content="AEROFIELD — технологічний агросервіс. Обробка полів агродронами, десикація, внесення добрив.">
+<title>AEROFIELD — агродрони для вашого поля</title>
+<link rel="stylesheet" href="./src/styles/main.css">
+<link rel="stylesheet" href="./src/styles/cinematic.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Перейти до вмісту</a>
+
+<header class="nav">
+<div class="wrap navin">
+<a class="brand" href="#home" aria-label="AEROFIELD головна">
+<img src="./public/assets/logo.png" alt="AEROFIELD">
+</a>
+<nav id="menu" class="menu">
+<a href="#services">Послуги</a>
+<a href="#calculator">Калькулятор</a>
+<a href="#about">Переваги</a>
+<a href="#field-stories">Відео</a>
+<a href="#contact">Контакти</a>
+</nav>
+<a class="pill" href="#contact">Залишити заявку ↗</a>
+<button class="mobileToggle" aria-label="Відкрити меню" aria-expanded="false" aria-controls="menu">☰</button>
+</div>
+</header>
+<main id="main">
+<section id="home" class="hero">
+  <video id="hero-video" class="hero-video" muted loop playsinline preload="none" poster="./public/media/field-flight.jpg" aria-hidden="true" tabindex="-1" data-src="./public/media/field-flight.mp4"></video>
+  <div class="hero-shade"></div>
+  <div class="wrap heroin">
+    <div class="hero-copy">
+      <span class="kicker">AEROFIELD / АГРОСЕРВІС</span>
+      <h1>Точність із висоти.<br><span>Результат на землі.</span></h1>
+      <p class="lead">Обробка полів агродронами.<br>Нові можливості для вашого господарства.</p>
+      <div class="heroactions"><a class="primary" href="#calculator">Розрахувати обробку ↗</a><a class="secondary" href="#field-stories">Дивитися в дії ↓</a></div>
+    </div>
+    <div class="hero-bottom"><span>ПОЛЕ. ТЕХНОЛОГІЯ. РЕЗУЛЬТАТ.</span><button id="video-toggle" class="video-toggle" type="button" aria-controls="hero-video">▶ Відтворити відео</button></div>
+  </div>
+  <p id="video-status" class="sr-only" role="status"></p>
+</section>
+<section class="intro-strip" aria-label="Наш підхід"><div class="wrap"><p>Ваше поле.<br><strong>Наш фокус.</strong></p><div><span>01 / ТОЧНІСТЬ</span><h2>Кожна ділянка має значення.</h2><p>Від першого огляду до погодженої обробки — плануємо роботу під вашу культуру, площу та умови поля.</p></div></div></section>
+<section id="services" class="section">
+<div class="wrap">
+<div class="topline">
+<span class="eyebrow">01 / Наші послуги</span>
+<span class="tag">АГРОСЕРВІС</span>
+</div>
+<h2 class="heading">Технології, що працюють<br>на ваш урожай.</h2>
+<p class="desc">Рішення для господарств, яким потрібна якісна обробка посівів без зайвого навантаження на техніку та ґрунт.</p>
+<div class="cards">
+<article class="card">
+<span class="num">01 — PROTECTION</span>
+<div class="symbol">⌁</div>
+<h3>Обприскування посівів</h3>
+<p>Внесення дозволених засобів захисту рослин агродронами за погодженим технологічним завданням.</p>
+</article>
+<article class="card">
+<span class="num">02 — DESICCATION</span>
+<div class="symbol">◈</div>
+<h3>Десикація</h3>
+<p>Передзбиральна обробка культур із підбором режиму роботи відповідно до умов поля.</p>
+</article>
+<article class="card">
+<span class="num">03 — NUTRITION</span>
+<div class="symbol">✳</div>
+<h3>Позакореневе підживлення</h3>
+<p>Внесення сумісних рідких добрив із контрольованою нормою та плануванням маршруту.</p>
+</article>
+</div>
+</div>
+</section>
+<section id="field-stories" class="section field-stories"><div class="wrap">
+<div class="story-heading"><div><span class="eyebrow">02 / Технологія в русі</span><h2 class="heading">Побачити.<br>Як це працює.</h2></div><p class="desc">Політ над посівами та підготовка техніки зблизька. Два погляди на сучасний агросервіс.</p></div>
+<div class="film-grid">
+<figure class="film"><video controls playsinline preload="none" poster="./public/media/field-flight.jpg" src="./public/media/field-flight.mp4" aria-label="Демонстраційне відео: агродрон обприскує поле"></video><figcaption><span>01 / У ПОВІТРІ</span><h3>Технологія над посівами.</h3><p>Політ агродрона під час обробки поля.</p></figcaption></figure>
+<figure class="film"><video controls playsinline preload="none" poster="./public/media/agriculture.jpg" src="./public/media/agriculture.mp4" aria-label="Демонстраційне відео: підготовка агродрона"></video><figcaption><span>02 / НА ЗЕМЛІ</span><h3>Увага до кожного етапу.</h3><p>Підготовка агродрона до наступного вильоту.</p></figcaption></figure>
+</div><p class="media-credit">Ілюстративні кадри технології, не зйомка команди AEROFIELD. Відео: <a href="https://www.pexels.com/video/aerial-drone-spraying-technology-on-farm-field-34182418/" target="_blank" rel="noopener">Magda Ehlers / Pexels ↗</a></p>
+</div></section>
+<section id="about" class="section dark">
+<div class="wrap split">
+<div class="photo"><img src="./public/media/agriculture.jpg" alt="Підготовка агродрона біля поля — ілюстративне фото" loading="lazy" width="1260" height="709"><span class="photo-caption">Усе починається з підготовки.</span></div>
+<div>
+<span class="kicker">03 / Чому AEROFIELD</span>
+<h2 class="heading">Мислимо ширше.<br>
+<span class="accent">Працюємо точніше.</span>
+</h2>
+<p class="desc" style="color:#c0d1c6">Поєднуємо аграрний підхід із безпілотними технологіями. Кожне замовлення починається з оцінки потреб господарства.</p>
+<div class="benefits">
+<div class="benefit">
+<span class="check">✓</span>
+<div>
+<strong>Менше контакту техніки з посівами</strong>
+<p>Робота без заїзду важкого обприскувача на оброблювані ділянки.</p>
+</div>
+</div>
+<div class="benefit">
+<span class="check">✓</span>
+<div>
+<strong>Гнучкість у складних умовах</strong>
+<p>Можливість працювати на окремих ділянках та зі складною конфігурацією поля за належних умов.</p>
+</div>
+</div>
+<div class="benefit">
+<span class="check">✓</span>
+<div>
+<strong>Планування кожного виїзду</strong>
+<p>Узгоджуємо площу, культуру, препарат, технічні умови та доступність польотів.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="process" class="section">
+<div class="wrap">
+<span class="eyebrow">04 / Простий процес</span>
+<h2 class="heading">Від заявки до результату.</h2>
+<div class="process">
+<div class="step">
+<b>01</b>
+<h3>Звернення</h3>
+<p>Залишаєте заявку та орієнтовну площу.</p>
+</div>
+<div class="step">
+<b>02</b>
+<h3>Оцінка</h3>
+<p>Уточнюємо культуру, локацію та умови.</p>
+</div>
+<div class="step">
+<b>03</b>
+<h3>Узгодження</h3>
+<p>Погоджуємо вартість, дату й можливість виконання робіт.</p>
+</div>
+<div class="step">
+<b>04</b>
+<h3>Обробка</h3>
+<p>Проводимо роботи згідно з погодженим завданням.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="calculator" class="section calculator">
+<div class="wrap calc-grid">
+<div>
+<span class="eyebrow">Орієнтовний розрахунок</span>
+<h2 class="heading">Плануйте обробку<br>вашого поля.</h2>
+<p class="desc">Вкажіть площу та узгоджений тариф за гектар. Розрахунок не враховує препарати, логістику й додаткові роботи. Остаточну пропозицію погоджуємо індивідуально.</p>
+</div>
+<div class="calc-fields">
+<label for="calc-area">Площа поля, га<input id="calc-area" type="number" min="0.01" max="1000000" step="0.01" value="100" inputmode="decimal">
+</label>
+<label for="calc-rate">Узгоджений тариф, грн/га<input id="calc-rate" type="number" min="0.01" max="1000000" step="0.01" placeholder="Вкажіть тариф" inputmode="decimal">
+</label>
+<output id="estimate" class="estimate" aria-live="polite">Вкажіть тариф</output>
+<a href="#contact" class="pill" id="use-estimate">Перенести площу в заявку ↗</a>
+</div>
+</div>
+</section>
+<section id="contact" class="contact">
+<div class="wrap contactgrid">
+<div>
+<span class="kicker">05 / Зв’язатися з нами</span>
+<h2 class="heading">Ваше поле.<br>
+<span class="accent">Наша технологія.</span>
+</h2>
+<p class="desc">Розкажіть про завдання — підготуємо персональну пропозицію після уточнення деталей.</p>
+<div class="note">Можливість і терміни польотів залежать від чинних обмежень, погоджень та умов безпеки.</div>
+</div>
+<form class="form" id="leadForm">
+<label>Ваше ім’я<input name="name" placeholder="Ваше ім’я *" required autocomplete="name" maxlength="120">
+</label>
+<label>Телефон<input name="phone" placeholder="Телефон *" type="tel" required autocomplete="tel" maxlength="40">
+</label>
+<label>Область / населений пункт<input name="region" placeholder="Область / населений пункт" maxlength="200">
+</label>
+<label>Площа, га<input name="area" type="number" min="0.01" step="0.01" max="1000000" placeholder="Площа, га">
+</label>
+<label class="wide">Послуга<select name="service">
+<option value="">Оберіть послугу</option>
+<option>Обприскування</option>
+<option>Десикація</option>
+<option>Позакореневе підживлення</option>
+<option>Потрібна консультація</option>
+</select>
+</label>
+<button class="primary wide" type="submit">Підготувати текст заявки ↗</button>
+<p class="privacy">Це демо: кнопка сформує текст заявки для копіювання. Дані нікуди не надсилаються.</p>
+<p class="privacy" id="result" role="status" style="display:none;background:#ffffff16;padding:16px;border-radius:6px;white-space:pre-wrap">
+</p>
+</form>
+</div>
+</section>
+</main>
+<footer>
+<div class="wrap foot">
+<strong>AEROFIELD</strong>
+<span>Точність із висоти. Результат на землі.</span>
+<span>© <span id="year">
+</span> AEROFIELD · Концепт сайту</span>
+</div>
+</footer>
+<script defer src="./public/app.js">
+</script>
+</body>
+</html>

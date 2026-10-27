@@ -1,0 +1,11 @@
+dist/
+.tools/
+archive/
+preview-*.png
+# One-time local migration scripts contain machine-specific source paths.
+scripts/migrate.mjs
+scripts/modernize.mjs
+node_modules/
+.env
+.env.*
+!.env.example
